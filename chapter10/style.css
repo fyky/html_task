@@ -67,3 +67,37 @@ footer {
   background-color: #aaa;
   height: 50px;
 }
+
+@media screen and (max-width: 768px) {
+  main {
+    width: 100%;
+    display: block;
+  }
+
+  .contents,
+  .contents:last-child {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .contents:nth-child(2),
+  .contents:last-child {
+    margin-top: 20px;
+  }
+
+  .contents:last-child {
+    margin-bottom: 50px;
+  }
+
+  .img {
+    height: 150px;
+  }
+
+  .img2 {
+    height: 150px;
+  }
+  .img3 {
+    height: 150px;
+  }
+}
